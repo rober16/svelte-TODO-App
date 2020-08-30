@@ -1,5 +1,7 @@
 <script>
     import TodoItem from './TodoItem.svelte';
+    import ListItem from './ListItem.svelte';
+
     let newTodoTitle = '';
     let currentFilter = 'all';
     let nextId = 4;
@@ -123,6 +125,10 @@
         <dir>
             <button on:click={clearCompleted}>Eliminar tareas finalizadas</button>
         </dir>
+    </div>
+    
+    <div class="list-item">
+        <ListItem />
     </div>
 
 </div>
