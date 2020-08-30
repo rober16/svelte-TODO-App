@@ -57,20 +57,6 @@ const contacts = (async () => {
         <p>{data.results['0'].phone}</p>
     </div>
 
-    <div class='card'>
-        <span class='avatar' style='background: url({data.results['0'].picture.large})'></span>
-        <h3>{data.results['0'].name.first}</h3>
-        <p>{data.results['0'].email}</p>
-        <p>{data.results['0'].phone}</p>
-    </div>
-
-    <div class='card'>
-        <span class='avatar' style='background: url({data.results['0'].picture.large})'></span>
-        <h3>{data.results['0'].name.first}</h3>
-        <p>{data.results['0'].email}</p>
-        <p>{data.results['0'].phone}</p>
-    </div>
-
     {:catch error}
 
 	<p>An error occurred!</p>
