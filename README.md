@@ -1,1 +1,1 @@
-# svelte-TODO-App
+# Svelte App
