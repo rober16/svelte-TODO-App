@@ -1,6 +1,9 @@
 <script>
     import TodoItem from './TodoItem.svelte';
-    import ListItem from './ListItem.svelte';
+    import Users from './Users.svelte';
+    import User from "./User.svelte";
+    let users;
+    let user;
 
     let newTodoTitle = '';
     let currentFilter = 'all';
@@ -127,8 +130,9 @@
         </dir>
     </div>
     
+    <h2>Mis contactos</h2>
     <div class="list-item">
-        <ListItem />
+        <Users/>
     </div>
 
 </div>
